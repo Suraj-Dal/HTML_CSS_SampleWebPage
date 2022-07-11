@@ -100,3 +100,17 @@ footer
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
 }
+
+@media(max-width:480px)
+{
+    #nav
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #nav .logo
+    {
+        font-size: 10px;
+    }
+}
